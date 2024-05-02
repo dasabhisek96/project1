@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "account_users",
+  "info": {
+    "singularName": "account-user",
+    "pluralName": "account-users",
+    "displayName": "accountUser"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "access": {
+      "type": "text"
+    }
+  }
+}

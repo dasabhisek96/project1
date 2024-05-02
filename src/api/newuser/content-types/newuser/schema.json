@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newusers",
+  "info": {
+    "singularName": "newuser",
+    "pluralName": "newusers",
+    "displayName": "newuser"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "guess": {
+      "type": "integer"
+    }
+  }
+}
